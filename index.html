@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Landing Page Website</title>
+<link rel="stylesheet" href="style.css" />
+  <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Bootstrap Icons CSS (for social icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!--Roboto Fonts Add-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Navbar Start-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="#">
+            <img src="Image/logo.png" alt="Logo">
+        </a>
+        
+        <!-- Toggler button for small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation Links (7 menu items) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Apply mx-auto class to center align menu items -->
+            <ul class="navbar-nav mx-auto"> <!-- mx-auto class added for center alignment -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About Us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#News">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Social Icons inside the toggle -->
+            <div class="navbar-nav ml-auto"> <!-- Use a div for social icons -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--Navbar End-->
+
+<!--Slider Start-->
+<div class="container-fluid p-0">
+    <div id="myCarousel" class="carousel slide full-width-banner" data-ride="carousel" data-interval="2000">
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Image/istockphoto-493829717-1024x1024.jpg" alt="Image 1" style="width:100%;">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/businessman-touching-glowing-increasing-arrow-business-profit-investment-growth-concept.jpg" alt="Image 2" style="width:100%;">
+            </div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+    </div>
+</div>
+<!--Slider End-->
+<!--Service Section start-->
+<div class="container" style="margin-top: 40px;" id="Services">
+   <!-- <div class="row">
+        <!-- Services heading div -->
+        <div class="col-md-12 text-center mb-3">
+            <h2 class="services-heading">Services</h2>
+        </div>-->
+        <!-- End of Services heading div -->
+    <div class="row">
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fas fa-portrait card-img-top mx-auto" id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">LOGIN FIRST</h5>
+                    <p class="card-text">When a new user logs into the application for the first time with the user name and password provided by the bank, there are certain tasks that he/she needs to fulfill before being able to access the online services of the bank.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fa-solid fa-vials card-img-top mx-auto" id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">FACE TESTING</h5>
+                    <p class="card-text">Face Fit testing is a method of ensuring that a facepiece or mask is tight-fitting and seals adequately to the wearer's face. The performance of tight-fitting facepieces depends on achieving continuous contact between the wearer's skin and the seal of the mask.
+</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fa-solid fa-magnifying-glass-chart card-img-top mx-auto" id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">DATA ANALYSIS</h5>
+                    <p class="card-text">Data analysis is the process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fa-regular fa-pen-to-square card-img-top mx-auto"id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">UNIQUE DESIGN</h5>
+                    <p class="card-text">Unique design simply means an improved version of an already better product or design. Uniqueness means the quality of being improved. An improvement of the already existed design.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fa-solid fa-arrows-to-eye card-img-top mx-auto"id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">VALIDATED CODE</h5>
+                    <p class="card-text">What Is a Validation Code? A validation code—also known as a CVV, CV2, or CVV2 code—is a series of three or four numbers located on the front or back of a credit card. It is intended to provide an additional layer of security for credit card transactions that take place online or over the phone.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" id="card-size">
+            <div class="card" id="card-main">
+                <i class="fa-solid fa-person-chalkboard card-img-top mx-auto"id="icon-card"></i>
+                <div class="card-body">
+                    <h5 class="card-title">MULTI FUNCTIONAL</h5>
+                    <p class="card-text">performing or capable of performing more than one function. a multifunction device. multifunctional furniture. The most popular approach to kitchen flexibility today is to plan a multifunction family center, often called the "great room.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Service Section End-->
+<!--Choose Section Start-->
+ <div class="container">
+        <div class="row">
+            <!-- Left Side (Heading, Paragraphs, FAQs) -->
+            <div class="col-md-6">
+                <h1 class="choose-heading">Why <span style="color:#009efb;">Choose US</span></h1>
+                <p> Because we'll make you more money with customer-focused, convincing copy that sells harder.</p>
+                
+
+                <div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      We're an awarded communication and design?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        Communication design is specifically used when discussing the strategy involved in expressing information through visual design.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      Campaigns & Digital Projects for Businesses?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        A digital marketing campaign is a strategic plan for promoting your business online. The goal of a digital marketing campaign is to grow your business in relevant online spaces to boost brand awareness, engagement, and conversions with your target audience.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+       We Design & Build Brands and Agencies?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        Design agencies develop visual communication materials for clients to use in advertising and marketing. Graphic designers combine words, ideas, and images to give a specific effect to a target audience.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      Large & Small Business Companies?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        Unlike small and mid-market enterprises, which are usually directly owned by a person or group of people, large organizations are usually organized as corporations to separate their tax burden from their owners. Their owners don't usually run them directly. Corporate owners don't usually manage their companies.
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+
+            <!-- Right Side (Image) -->
+            <div class="col-md-6">
+                <img src="Image/why-chs-mckp.png" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+<script>
+const accordionItemHeaders = document.querySelectorAll(
+  ".accordion-item-header"
+);
+
+accordionItemHeaders.forEach((accordionItemHeader) => {
+  accordionItemHeader.addEventListener("click", (event) => {
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+
+    const currentlyActiveAccordionItemHeader = document.querySelector(
+      ".accordion-item-header.active"
+    );
+    if (
+      currentlyActiveAccordionItemHeader &&
+      currentlyActiveAccordionItemHeader !== accordionItemHeader
+    ) {
+      currentlyActiveAccordionItemHeader.classList.toggle("active");
+      currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if (accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    } else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+  });
+});
+
+</script>
+<!--Choose Section End-->  
+
+<!--ABout Us Section Start-->  
+<div class="container my-5" id="About Us">
+  <!--Section: Content-->
+  <section class="p-5 z-depth-1">
+    <h3 class="text-center font-weight-bold mb-5" id="about-heading">About Us</h3>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <i class="fas fa-file-alt custom-icon-color"></i>
+          <span class="d-inline-block count-up" data-from="0" data-to="100" data-time="2000">100</span>
+        </h4>
+        <p class="font-weight-normal text-muted">Unique Page</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <i class="fas fa-layer-group custom-icon-color"></i>
+          <span class="d-inline-block count1" data-from="0" data-to="250" data-time="2000">250</span>
+        </h4>
+        <p class="font-weight-normal text-muted">Block Variety</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <i class="fas fa-pencil-ruler custom-icon-color"></i>
+          <span class="d-inline-block count2" data-from="0" data-to="330" data-time="2000">330</span>
+        </h4>
+        <p class="font-weight-normal text-muted">Reusable Component</p>
+      </div>
+      
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <i class="fab fa-react custom-icon-color"></i>
+          <span class="d-inline-block count3" data-from="0" data-to="430" data-time="2000">430</span>
+        </h4>
+        <p class="font-weight-normal text-muted">Crafted Element</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+
+<script>
+(function ($){
+  $.fn.counter = function() {
+    const $this = $(this),
+    numberFrom = parseInt($this.attr('data-from')),
+    numberTo = parseInt($this.attr('data-to')),
+    delta = numberTo - numberFrom,
+    deltaPositive = delta > 0 ? 1 : 0,
+    time = parseInt($this.attr('data-time')),
+    changeTime = 10;
+    
+    let currentNumber = numberFrom,
+    value = delta*changeTime/time;
+    var interval1;
+    const changeNumber = () => {
+      currentNumber += value;
+      //checks if currentNumber reached numberTo
+      (deltaPositive && currentNumber >= numberTo) || (!deltaPositive &&currentNumber<= numberTo) ? currentNumber=numberTo : currentNumber;
+      this.text(parseInt(currentNumber));
+      currentNumber == numberTo ? clearInterval(interval1) : currentNumber;  
+    }
+
+    interval1 = setInterval(changeNumber,changeTime);
+  }
+}(jQuery));
+
+$(document).ready(function(){
+
+  $('.count-up').counter();
+  $('.count1').counter();
+  $('.count2').counter();
+  $('.count3').counter();
+  
+  new WOW().init();
+  
+  setTimeout(function () {
+    $('.count5').counter();
+  }, 3000);
+});
+</script>
+
+<div class="container-fluid banner">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="Landing-heading">Landing Pages Made Easy</h1>
+            <h2 class="Powerful-heading">A Powerful Platform for Landing Pages that Convert</h2>
+            <a href="#" class="play-button"><i class="fas fa-play-circle"></i></a>
+        </div>
+    </div>
+</div>
+<!--About Us Section End-->   
+
+<!--Team Section Start-->
+
+<div class="container" id="Team">
+    <!-- Top Heading -->
+    <div class="row">
+        <div class="col-lg-12 text-center mt-5">
+            <h1 class="Meet-heading">Meet Awesome Team</h1>
+            <h2 class="Meet-heading1">Best & Clean Landing Page with Unique Idea</h2>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="row mt-5">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card border-0"> <!-- Removed card border -->
+                <img src="Image/member1.jpg" class="card-img-top" alt="Image 1">
+                <!-- Hover Effect -->
+                <div class="card-hover">
+                   <h3 class="co-heading">QLARK WILLIMES</h3>
+                    <h4 class="co-heading1">Co-Founder</h4>
+                    <i class="fab fa-facebook" id="icon-card"></i>
+                    <i class="fab fa-twitter" id="icon-card"></i>
+                    <i class="fab fa-linkedin" id="icon-card"></i>
+					<p class="co-heading2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available</p>
+                </div>
+                <div class="card-body text-center"> <!-- Center align card contents -->
+                    <h5 class="card-title">QLARK WILLIMES</h5>
+                    <p class="card-text">Co-Founder</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card border-0"> <!-- Removed card border -->
+                <img src="Image/member2.jpg" class="card-img-top" alt="Image 2">
+                <!-- Hover Effect -->
+                <div class="card-hover">
+                    <h3 class="co-heading">WILLIMES JOHN</h3>
+                    <h4 class="co-heading1">Co-Founder</h4>
+                    <i class="fab fa-facebook" id="icon-card"></i>
+                    <i class="fab fa-twitter" id="icon-card"></i>
+                    <i class="fab fa-linkedin" id="icon-card"></i>
+					<p class="co-heading2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available</p>
+                </div>
+                <div class="card-body text-center"> <!-- Center align card contents -->
+                    <h5 class="card-title">WILLIMES JOHN</h5>
+                    <p class="card-text">Co-Founder</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card border-0"> <!-- Removed card border -->
+                <img src="Image/member3.jpg" class="card-img-top" alt="Image 3">
+                <!-- Hover Effect -->
+                <div class="card-hover">
+                    <h3 class="co-heading">DOMINUS WATSON</h3>
+                    <h4 class="co-heading1">Co-Founder</h4>
+                    <i class="fab fa-facebook" id="icon-card"></i>
+                    <i class="fab fa-twitter" id="icon-card"></i>
+                    <i class="fab fa-linkedin" id="icon-card"></i>
+					<p class="co-heading2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available</p>
+                </div>
+                <div class="card-body text-center"> <!-- Center align card contents -->
+                    <h5 class="card-title">DOMINUS WATSON</h5>
+                    <p class="card-text">Co-Founder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Team Section End-->            
+
+<!--Feature Section Start-->   
+<div class="container" style="margin-top:50px;" id="Features">
+        <div class="row">
+            <!-- Left Side -->
+            <div class="col-md-4">
+                <img src="Image/amz-mckp1.png" class="img-fluid" alt="Image">
+            </div>
+            
+            <!-- Right Side -->
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="feature-heading">XAPO <span style="color:#009efb;">Amazing Features</span></h1>
+						<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:40px;">
+                    <!-- Left Subsection -->
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <!-- Bootstrap Icon -->
+                                <i class="fas fa-laptop" style="font-size: 30px; color: #009efb;"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h2 class="feature-heading1">HIGH RESOLUTION</h2>
+                                <p class="feature-heading2">Lorem ipsum dolor sit amet, consectet adop adipisicing elit, sed do eiusmod temporara incidid labore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Subsection -->
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <!-- Bootstrap Icon - Laptop Icon -->
+                                <i class="fa-solid fa-city" style="font-size: 30px; color: #009efb;"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h2 class="feature-heading1">ULTIMITED FEATURES</h2>
+                                <p class="feature-heading2">Lorem ipsum dolor sit amet, consectet adop adipisicing elit, sed do eiusmod temporara incidid labore.</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-6" style="padding-top:20px">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <!-- Bootstrap Icon -->
+                                <i class="fa-solid fa-person-chalkboard" style="font-size: 30px; color: #009efb;"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h2 class="feature-heading1">FREE SUPPORT</h2>
+                                <p class="feature-heading2">Lorem ipsum dolor sit amet, consectet adop adipisicing elit, sed do eiusmod temporara incidid labore.</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-6" style="padding-top:20px">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <!-- Bootstrap Icon -->
+                                <i class="fa-regular fa-address-card" style="font-size: 30px; color: #009efb;"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h2 class="feature-heading1">CLEAN CODES</h2>
+                                <p class="feature-heading2">Lorem ipsum dolor sit amet, consectet adop adipisicing elit, sed do eiusmod temporara incidid labore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Feature Section End-->     
+
+<!--News Section Start-->    
+   <div class="container" id="News">
+        <div class="row">
+            <div class="col-lg-12 text-center mt-5">
+                <h1 class="Meet-heading">Recent News</h1>
+                <h2 class="Meet-heading1">Best & Clean Landing Page with Unique Idea</h2>
+            </div>
+        </div>
+        <div class="row" style="padding-top:30px">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Image/rcnt-nws-img1.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h3 class="news-heading2"><a href="#">Explore These Stunning Small Business</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Image/rcnt-nws-img2.jpg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h3 class="news-heading2"><a href="#">Boriosam sunt consectetur, assumenda provident</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Image/rcnt-nws-img3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h3 class="news-heading2"><a href="#">Provident lorem amet, con sectetur Adipisicing</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--News Section End-->
+	
+	<!--Contact Section Start-->	
+  <section style="background-image: url('Image/parlx-bg3.jpg'); background-size: cover; background-position: center; height: 530px; margin-top: 60px; color: white;">
+    <div class="container" id="Contact">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-md-6 offset-md-3">
+                <h2 class="text-center">Contact Us</h2>
+                <form>
+                    <div class="form-group" style="padding-top: 20px;">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <!-- Custom button class added -->
+                    <button type="submit" class="btn custom-btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Section End-->
+
+<!--Footer Section Start-->
+<footer class="custom-footer">
+        <div class="container">
+            <h1>XAPO</h2>
+            <h2>People who succeed have momentum. The more they succeed, <br>the more they want to succeed, Lorimes somijes ilimes uilme silmes and the more they find a way to succeed.</h3>
+            <h3>Copyright Rehman Mughal | All Rights Reserved</h3>
+            <div class="social-icons">
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+<!--Footer Section End-->	
+</body>
+</html>
